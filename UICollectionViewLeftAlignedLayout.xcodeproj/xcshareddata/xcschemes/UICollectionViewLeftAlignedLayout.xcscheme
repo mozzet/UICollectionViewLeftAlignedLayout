@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "90482DEE2435E2E900703200"
+               BlueprintIdentifier = "9023CDF22436BD01004D94AD"
                BuildableName = "UICollectionViewLeftAlignedLayout.framework"
                BlueprintName = "UICollectionViewLeftAlignedLayout"
                ReferencedContainer = "container:UICollectionViewLeftAlignedLayout.xcodeproj">
@@ -50,7 +50,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "90482DEE2435E2E900703200"
+            BlueprintIdentifier = "9023CDF22436BD01004D94AD"
             BuildableName = "UICollectionViewLeftAlignedLayout.framework"
             BlueprintName = "UICollectionViewLeftAlignedLayout"
             ReferencedContainer = "container:UICollectionViewLeftAlignedLayout.xcodeproj">

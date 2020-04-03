@@ -3,92 +3,80 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90482DFD2435E32300703200 /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 90482DFB2435E32200703200 /* UICollectionViewLeftAlignedLayout.m */; };
-		90482E002435E36400703200 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90482DFF2435E36400703200 /* UIKit.framework */; platformFilter = ios; };
-		90482E022435E3FD00703200 /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90482E012435E3FD00703200 /* UICollectionViewLeftAlignedLayout.h */; };
+		9023CDF82436BD01004D94AD /* UICollectionViewLeftAlignedLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9023CDF62436BD01004D94AD /* UICollectionViewLeftAlignedLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9023CDFF2436BD82004D94AD /* UICollectionViewLeftAlignedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9023CDFE2436BD82004D94AD /* UICollectionViewLeftAlignedLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		90482DEF2435E2E900703200 /* UICollectionViewLeftAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICollectionViewLeftAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90482DF32435E2E900703200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90482DFB2435E32200703200 /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
-		90482DFF2435E36400703200 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		90482E012435E3FD00703200 /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		9023CDF32436BD01004D94AD /* UICollectionViewLeftAlignedLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UICollectionViewLeftAlignedLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9023CDF62436BD01004D94AD /* UICollectionViewLeftAlignedLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UICollectionViewLeftAlignedLayout.h; sourceTree = "<group>"; };
+		9023CDF72436BD01004D94AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9023CDFE2436BD82004D94AD /* UICollectionViewLeftAlignedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICollectionViewLeftAlignedLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90482DEC2435E2E900703200 /* Frameworks */ = {
+		9023CDF02436BD01004D94AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90482E002435E36400703200 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90482DE52435E2E900703200 = {
+		9023CDE92436BD01004D94AD = {
 			isa = PBXGroup;
 			children = (
-				90482DF12435E2E900703200 /* UICollectionViewLeftAlignedLayout */,
-				90482DF02435E2E900703200 /* Products */,
-				90482DFE2435E36400703200 /* Frameworks */,
+				9023CDF52436BD01004D94AD /* UICollectionViewLeftAlignedLayout */,
+				9023CDF42436BD01004D94AD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		90482DF02435E2E900703200 /* Products */ = {
+		9023CDF42436BD01004D94AD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90482DEF2435E2E900703200 /* UICollectionViewLeftAlignedLayout.framework */,
+				9023CDF32436BD01004D94AD /* UICollectionViewLeftAlignedLayout.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90482DF12435E2E900703200 /* UICollectionViewLeftAlignedLayout */ = {
+		9023CDF52436BD01004D94AD /* UICollectionViewLeftAlignedLayout */ = {
 			isa = PBXGroup;
 			children = (
-				90482DFB2435E32200703200 /* UICollectionViewLeftAlignedLayout.m */,
-				90482E012435E3FD00703200 /* UICollectionViewLeftAlignedLayout.h */,
-				90482DF32435E2E900703200 /* Info.plist */,
+				9023CDF62436BD01004D94AD /* UICollectionViewLeftAlignedLayout.h */,
+				9023CDFE2436BD82004D94AD /* UICollectionViewLeftAlignedLayout.m */,
+				9023CDF72436BD01004D94AD /* Info.plist */,
 			);
 			path = UICollectionViewLeftAlignedLayout;
-			sourceTree = "<group>";
-		};
-		90482DFE2435E36400703200 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				90482DFF2435E36400703200 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		90482DEA2435E2E900703200 /* Headers */ = {
+		9023CDEE2436BD01004D94AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90482E022435E3FD00703200 /* UICollectionViewLeftAlignedLayout.h in Headers */,
+				9023CDF82436BD01004D94AD /* UICollectionViewLeftAlignedLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		90482DEE2435E2E900703200 /* UICollectionViewLeftAlignedLayout */ = {
+		9023CDF22436BD01004D94AD /* UICollectionViewLeftAlignedLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90482DF72435E2E900703200 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */;
+			buildConfigurationList = 9023CDFB2436BD01004D94AD /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */;
 			buildPhases = (
-				90482DEA2435E2E900703200 /* Headers */,
-				90482DEB2435E2E900703200 /* Sources */,
-				90482DEC2435E2E900703200 /* Frameworks */,
-				90482DED2435E2E900703200 /* Resources */,
+				9023CDEE2436BD01004D94AD /* Headers */,
+				9023CDEF2436BD01004D94AD /* Sources */,
+				9023CDF02436BD01004D94AD /* Frameworks */,
+				9023CDF12436BD01004D94AD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -96,24 +84,25 @@
 			);
 			name = UICollectionViewLeftAlignedLayout;
 			productName = UICollectionViewLeftAlignedLayout;
-			productReference = 90482DEF2435E2E900703200 /* UICollectionViewLeftAlignedLayout.framework */;
+			productReference = 9023CDF32436BD01004D94AD /* UICollectionViewLeftAlignedLayout.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		90482DE62435E2E900703200 /* Project object */ = {
+		9023CDEA2436BD01004D94AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Noondate;
 				TargetAttributes = {
-					90482DEE2435E2E900703200 = {
+					9023CDF22436BD01004D94AD = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = 90482DE92435E2E900703200 /* Build configuration list for PBXProject "UICollectionViewLeftAlignedLayout" */;
+			buildConfigurationList = 9023CDED2436BD01004D94AD /* Build configuration list for PBXProject "UICollectionViewLeftAlignedLayout" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 90482DE52435E2E900703200;
-			productRefGroup = 90482DF02435E2E900703200 /* Products */;
+			mainGroup = 9023CDE92436BD01004D94AD;
+			productRefGroup = 9023CDF42436BD01004D94AD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90482DEE2435E2E900703200 /* UICollectionViewLeftAlignedLayout */,
+				9023CDF22436BD01004D94AD /* UICollectionViewLeftAlignedLayout */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		90482DED2435E2E900703200 /* Resources */ = {
+		9023CDF12436BD01004D94AD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -142,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		90482DEB2435E2E900703200 /* Sources */ = {
+		9023CDEF2436BD01004D94AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90482DFD2435E32300703200 /* UICollectionViewLeftAlignedLayout.m in Sources */,
+				9023CDFF2436BD82004D94AD /* UICollectionViewLeftAlignedLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		90482DF52435E2E900703200 /* Debug */ = {
+		9023CDF92436BD01004D94AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,12 +198,14 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		90482DF62435E2E900703200 /* Release */ = {
+		9023CDFA2436BD01004D94AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,15 +254,18 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		90482DF82435E2E900703200 /* Debug */ = {
+		9023CDFC2436BD01004D94AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PC36C8P696;
@@ -288,13 +282,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noondate.UICollectionViewLeftAlignedLayout;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		90482DF92435E2E900703200 /* Release */ = {
+		9023CDFD2436BD01004D94AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = PC36C8P696;
@@ -311,6 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = noondate.UICollectionViewLeftAlignedLayout;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -318,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90482DE92435E2E900703200 /* Build configuration list for PBXProject "UICollectionViewLeftAlignedLayout" */ = {
+		9023CDED2436BD01004D94AD /* Build configuration list for PBXProject "UICollectionViewLeftAlignedLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90482DF52435E2E900703200 /* Debug */,
-				90482DF62435E2E900703200 /* Release */,
+				9023CDF92436BD01004D94AD /* Debug */,
+				9023CDFA2436BD01004D94AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90482DF72435E2E900703200 /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */ = {
+		9023CDFB2436BD01004D94AD /* Build configuration list for PBXNativeTarget "UICollectionViewLeftAlignedLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90482DF82435E2E900703200 /* Debug */,
-				90482DF92435E2E900703200 /* Release */,
+				9023CDFC2436BD01004D94AD /* Debug */,
+				9023CDFD2436BD01004D94AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 90482DE62435E2E900703200 /* Project object */;
+	rootObject = 9023CDEA2436BD01004D94AD /* Project object */;
 }
